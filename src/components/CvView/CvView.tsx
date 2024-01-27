@@ -3,7 +3,7 @@ import * as s from './style'
 import { Box } from '@mui/material';
 
 const CvView = () => {
-  const { fullName, jobTitle, contacts } = useStore(state => state.cv)
+  const { fullName, jobTitle } = useStore(state => state.cv)
   return (
     <s.CvBox>
       <Box>
